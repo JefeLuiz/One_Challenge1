@@ -1,0 +1,111 @@
+*{
+    background: #E5E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo-alura{
+    margin-left: 80px;
+    padding-top: 20px;
+    width: 2%;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area{
+    border: none;
+    color: #0A3971;
+    margin-top: 98px;
+    text-transform: lowercase;
+}
+::placeholder{ color: #0A3971;}
+    .text-area:focus{
+    outline: none;
+}
+.mensagem{
+    background: white;
+    background-image: url("./imagens/antronaut.search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3971;
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.mensagem:focus{
+    outline: none;
+}
+.botoes{
+    display: flex;
+     margin-top: 18px;
+}
+.btn-criptografar{
+    background-color: #470963;
+    border: 1px solid #470963;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+.btn-criptografar:hover {
+    background: #240931;
+    transition: 1s;
+}
+.btn-copiar{
+    border: 1px solid #6f1b96;
+    border-radius: 24px;
+    color: #6f1b96;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 805px;
+    margin-top: 402px;
+    position: absolute;
+    width: 150px;
+}
+.btn-limpar{
+    border: 1px solid #6f1b96;
+    border-radius: 24px;
+    color: #6f1b96;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 975px;
+    margin-top: 402px;
+    position: absolute;
+    width: 150px;
+}
+.btn-desencriptar{
+    background-color: #470963;
+    border: 1px solid #470963;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px; 
+}
+.btn-desencriptar:hover {
+    background: #240931;
+    transition: 1s;
+}
+.informacoes{
+    font-size: 0.7em;
+}
+footer{
+  margin-left: 550px;
+}
+.imagem-github{
+    height: 3.5em;
+    cursor: pointer;
+}
+
+.imagem-linkedin{
+    height: 3.5em;
+    cursor: pointer;
+}
